@@ -15,15 +15,19 @@ public class Main {
                 System.out.println("Forkert!");
             } else if (svar.equalsIgnoreCase("Fck")) {
                 System.out.println("Korrekt!");
-                for(int i = 0; i < 6; i++){
-                    System.out.println("lå!");
-                }
+                jubel();
                 running = false;
             } else {
                 System.out.println("Skriv lige fck");
             }
         }
         while (running);
+        }
+
+        public static void jubel(){
+            for(int i = 0; i < 6; i++){
+                System.out.println("lå!");
+            }
         }
     }
 
