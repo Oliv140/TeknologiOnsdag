@@ -24,6 +24,7 @@ public class Main {
             }
         }
         while (running);
+        System.out.println("Flot klaret");
         }
     }
 
