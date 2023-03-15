@@ -5,9 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("Hey");
-        //Her er en kommentar i koden ;)
-        //Ny kommentar
+
         Scanner in = new Scanner(System.in);
         System.out.println("Brøndby eller fck?");
         String svar = in.nextLine();
@@ -18,6 +16,6 @@ public class Main {
 
         } else {
             System.out.println("Skriv lige fck");
-        }
+        } ///////EYO CHANGED TODO HURB/////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
