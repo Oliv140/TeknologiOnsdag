@@ -15,12 +15,11 @@ public class Main {
             } else if (svar.equalsIgnoreCase("Fck")) {
                 System.out.println("Korrekt!");
 
-                for(int i = 0; i < 4; i++){
+                for(int i = 0; i < 6; i++){
                     System.out.println("lå!");
                 }
 
                 running = false;
-
             } else {
                 System.out.println("Skriv lige fck");
             }
