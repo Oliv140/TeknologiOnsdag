@@ -11,12 +11,12 @@ public class Main {
         //Ny kommentar
         Scanner in = new Scanner(System.in);
         do {
-            System.out.println("brøndby eller fck");
+            System.out.println("Brøndby eller Fck");
             String svar = in.nextLine();
             if (svar.equalsIgnoreCase("Brøndby")) {
-                System.out.println("forkert");
+                System.out.println("Forkert!");
             } else if (svar.equalsIgnoreCase("Fck")) {
-                System.out.println("korrekt");
+                System.out.println("Korrekt!");
                 running = false;
 
             } else {
