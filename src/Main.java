@@ -14,6 +14,11 @@ public class Main {
                 System.out.println("Forkert!");
             } else if (svar.equalsIgnoreCase("Fck")) {
                 System.out.println("Korrekt!");
+
+                for(int i = 0; i < 4; i++){
+                    System.out.println("lå!");
+                }
+
                 running = false;
 
             } else {
@@ -21,8 +26,6 @@ public class Main {
             }
         }
         while (running);
-        } else {
-            System.out.println("Skriv lige fck");
-        } ///////EYO CHANGED TODO HURB/////////////////////////////////////////////////////////////////////////////////////////////////////
+        }
     }
-}
+
