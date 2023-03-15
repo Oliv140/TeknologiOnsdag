@@ -6,7 +6,6 @@ public class Main {
         System.out.println("Hey");
         //Her er en kommentar i koden ;)
         //Ny kommentar
-
     }
 
 }
