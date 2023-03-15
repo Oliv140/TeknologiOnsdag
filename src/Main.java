@@ -6,9 +6,6 @@ public class Main {
        boolean running = true;
 
 
-        System.out.println("Hey");
-        //Her er en kommentar i koden ;)
-        //Ny kommentar
         Scanner in = new Scanner(System.in);
         do {
             System.out.println("Brøndby eller Fck");
